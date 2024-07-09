@@ -1,3 +1,5 @@
-function isFromCapeTown(Registration_number) {
-  return Registration_number.startsWith("CA");
+function regCheck(registrationNumber, location) {
+  return registrationNumber.endsWith(location);
 }
+
+module.exports = regCheck;
